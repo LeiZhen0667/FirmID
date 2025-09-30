@@ -1,0 +1,48 @@
+annotated-types==0.7.0
+beautifulsoup4==4.13.3
+Brotli @ file:///croot/brotli-split_1736182456865/work
+certifi @ file:///croot/certifi_1738623731865/work/certifi
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+filelock @ file:///croot/filelock_1700591183607/work
+fsspec==2025.3.0
+gensim==4.3.3
+gmpy2 @ file:///croot/gmpy2_1738085463648/work
+huggingface-hub==0.29.3
+idna @ file:///croot/idna_1714398848350/work
+Jinja2 @ file:///croot/jinja2_1741710844255/work
+joblib==1.4.2
+MarkupSafe @ file:///croot/markupsafe_1738584038848/work
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+mpmath @ file:///croot/mpmath_1690848262763/work
+networkx @ file:///croot/networkx_1717597493534/work
+numpy==1.26.4
+packaging==24.2
+pandas==2.2.3
+pillow @ file:///croot/pillow_1738010226202/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML @ file:///croot/pyyaml_1728657952215/work
+regex==2024.11.6
+requests @ file:///croot/requests_1730999120400/work
+safetensors==0.5.3
+scikit-learn==1.6.1
+scipy==1.13.1
+six==1.17.0
+smart-open==7.1.0
+soupsieve==2.6
+sympy @ file:///croot/sympy_1738108488918/work
+threadpoolctl==3.6.0
+tokenizers==0.21.1
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1
+transformers==4.50.2
+triton==3.1.0
+typing_extensions @ file:///croot/typing_extensions_1734714854207/work
+tzdata==2025.2
+urllib3 @ file:///croot/urllib3_1737133630106/work
+wrapt==1.17.2
