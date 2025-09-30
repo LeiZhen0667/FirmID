@@ -841,26 +841,14 @@ def extract_file_identifier(file_path, base_folder):
 if __name__ == "__main__":
     # Load and preprocess data
     folder_paths = [
-        # './dataset_demo/JNR3210_V1.1.0.14_1.0.14',
-        # './dataset_demo/DIR816L_FW100b09',
-        # './dataset_demo/DIR-300_fw_revb_205b03_ALL_de_20101123',
-        # './dataset_demo/Archer_c5v2_us-up-ver3-17-1-P1[20150908-rel43260]',
-        # './dataset_demo/ArcherC5v1_en_3_14_1_up_boot(141126)',
-        # './dataset_demo/FW_EA6700_1.1.42.203057',
-        # './dataset_demo/FW_RT_AC1900P_300438432799',
-        # './dataset_demo/R7000_V1.0.4.18_1.1.52',
-        # './dataset_demo/FW_EA6700_1.1.40.176451',
-        # './dataset_demo/FW_EA6900_1.1.42.174776_prod.img'
-        './10-dataset-test/JNR3210_V1.1.0.14_1.0.14',
-        './10-dataset-test/DIR816L_FW100b09',
-        './10-dataset-test/DIR-300_fw_revb_205b03_ALL_de_20101123',
-        './10-dataset-test/Archer_c5v2_us-up-ver3-17-1-P1[20150908-rel43260]',
-        './10-dataset-test/ArcherC5v1_en_3_14_1_up_boot(141126)',
-        './10-dataset-test/FW_EA6700_1.1.42.203057',
-        './10-dataset-test/FW_RT_AC1900P_300438432799',
-        # './10-dataset-test/R7000_V1.0.4.18_1.1.52',
-        './10-dataset-test/FW_EA6700_1.1.40.176451',
-        # './10-dataset-test/FW_EA6900_1.1.42.174776_prod.img'
+        './dataset-test/JNR3210_V1.1.0.14_1.0.14',
+        './dataset-test/DIR816L_FW100b09',
+        './dataset-test/DIR-300_fw_revb_205b03_ALL_de_20101123',
+        './dataset-test/Archer_c5v2_us-up-ver3-17-1-P1[20150908-rel43260]',
+        './dataset-test/ArcherC5v1_en_3_14_1_up_boot(141126)',
+        './dataset-test/FW_EA6700_1.1.42.203057',
+        './dataset-test/FW_RT_AC1900P_300438432799',
+        './dataset-test/FW_EA6700_1.1.40.176451',
     ]
 
     fasttext_model_path = 'pretrain_model/wiki-news-300d-1M.vec'
