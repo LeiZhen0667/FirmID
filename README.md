@@ -22,7 +22,7 @@ We have currently released a demo dataset and demo scripts. Upon acceptance of t
 
 ### Dataset
 
-The dataset is located in the `dataset_demo` folder and contains embedded web pages from online IoT devices, covering 1,000 firmware images from eight manufacturers: D-Link, ASUS, TP-Link, Belkin, Linksys, NETGEAR, TRENDnet, and Zyxel.
+The dataset is located in the [`dataset_demo`](https://drive.google.com/file/d/15CTGfaYVG4PxpNUfj1aB9hoSWeRJjKQA/view?usp=sharing) and contains embedded web pages from online IoT devices, covering 1,000 firmware images from eight manufacturers: D-Link, ASUS, TP-Link, Belkin, Linksys, NETGEAR, TRENDnet, and Zyxel. The complete dataset will be refined and uploaded to the same repository soon.
 
 ### Hierarchical Multimodal Attention Network
 
@@ -36,6 +36,7 @@ The trained model , checkpoint files, and evaluation metrics can be gained after
 ### Firmware Identification with Monte Carlo Tree Search
 
 The `FIMCTS-vs-ARGUS.py` script implements and compares two algorithms, ARGUS and FIMCTS, designed to improve firmware version identification efficiency through multi-round simulations.
+Before running the script, ensure you obtain the test dataset: [`FIMCTS-test`](https://drive.google.com/file/d/1VB44gPlFC7gV4Nq8R_n6Anxubuz8azTs/view?usp=sharing)
 
 ```bash
 python FIMCTS-vs-ARGUS.py
